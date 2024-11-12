@@ -28,7 +28,7 @@ A = [1 0.5;0 1];
 B = [0;0.5];
 Kdir = [-0.24075159 -0.78717577]; % state-feedback gain obtained from GA
 Kind = [-1.4140   -2.3412]; % state-feedback gain obtained from solving (22)
-K = Kdir; % select between of the two above
+K = Kind; % select Kind
 %
 % error trajectory samples for calibration
 for j=1:M
